@@ -19,7 +19,7 @@ const Navbar = () => {
         
         <li><a>Add Product</a></li>
 
-        <li><Link to={'/Dashbord'}>Dashboard</Link></li>
+        <li><Link to={'/Dashboard'}>Dashboard</Link></li>
       </ul>
     </div>
     <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
@@ -32,7 +32,7 @@ const Navbar = () => {
         
         <li><a>Add Product</a></li>
 
-        <li><Link to={'/Dashbord'}>Dashboard</Link></li>
+        <li><Link to={'/Dashboard'}>Dashboard</Link></li>
 
     </ul>
   </div>
