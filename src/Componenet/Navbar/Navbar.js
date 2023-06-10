@@ -15,22 +15,23 @@ const Navbar = () => {
 
         <li><Link to={'/'}>Home</Link></li>
 
-        <li><a>Add Customer</a></li>
+        <li><Link to={'/addUser'}>Add Customer</Link></li>
         
-        <li><a>Add Product</a></li>
+        <li><Link to={'/addProduct'}>Add Product</Link></li>
+
 
         <li><Link to={'/Dashboard'}>Dashboard</Link></li>
       </ul>
     </div>
-    <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+    
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal p-0">
-    <li ><Link to={'/'}>Home</Link></li>
+    <li><Link to={'/'}>Home</Link></li>
 
-        <li><a>Add Customer</a></li>
+    <li><Link to={'/addUser'}>Add Customer</Link></li>
         
-        <li><a>Add Product</a></li>
+        <li><Link to={'/addProduct'}>Add Product</Link></li>
 
         <li><Link to={'/Dashboard'}>Dashboard</Link></li>
 

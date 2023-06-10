@@ -6,6 +6,8 @@ import Navbar from './Componenet/Navbar/Navbar';
 import Dashboard from './Componenet/Dashboard/Dashboard';
 import ManageUser from './Componenet/Dashboard/ManageUser/ManageUser'; 
 import ManageProducts from './Componenet/Dashboard/ManageProducts/ManageProducts'; 
+import AddUser from './Componenet/AddUser/AddUser';
+import AddProduct from './Componenet/AddProduct/AddProduct';
 
 function App() {
   return (
@@ -18,7 +20,8 @@ function App() {
               <Route path='ManageProducts' element={<ManageProducts></ManageProducts>}></Route>
         </Route>
         
-
+      <Route path='/addUser' element={<AddUser></AddUser>}></Route>
+      <Route path='/addProduct' element={<AddProduct></AddProduct>}></Route>
 
       </Routes>
 
